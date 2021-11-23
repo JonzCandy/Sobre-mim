@@ -1,0 +1,23 @@
+#cabeca {
+    display: none;
+}
+
+body {
+    padding: 0;
+    background-color: rgba(237, 223, 100, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
