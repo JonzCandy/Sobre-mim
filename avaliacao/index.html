@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+
+        <title>Cantina do Jaun</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Bem vindo a Cantina do Jaun<br />
+                Nós conseguimos satisfazer sua fome?<br />
+                Nos Avalie aqui
+            </h1>
+        </header>
+
+        <form>
+            <fieldset id="feedbackForm">
+                <h1>Sua Avaliação</h1>
+
+                <fieldset>
+                    <legend><h3> Identificação</h3> </legend>
+                    <input id="identificacao" type="text" placeholder="Nome"/>
+                </fieldset>
+
+                <fieldset class="coluna">
+                    <legend><h3>Nota</h3></legend>
+                    <ul class="semspace">
+                        <li>
+                            <img id="rate1" class="star" src="img/estrela-fundo-transparente.png" alt="um" />
+                        </li>
+                        <li>
+                            <img id="rate2" class="star" src="img/estrela-fundo-transparente.png" alt="dois" />
+                        </li>
+                        <li>
+                            <img id="rate3" class="star" src="img/estrela-fundo-transparente.png" alt="três" />
+                        </li>
+                        <li>
+                            <img id="rate4" class="star" src="img/estrela-fundo-transparente.png" alt="quatro" />
+                        </li>
+                        <li>
+                            <img id="rate5" class="star" src="img/estrela-fundo-transparente.png" alt="cinco" />
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h2>Algum Comentário?</h2></legend>
+                        <textarea id="comentario"></textarea>
+                </fieldset>
+
+                <button id="confirmar" type="button">Confirmar Avaliação</button>
+            </fieldset>
+
+            <fieldset>
+                <ul id="avaliacao"></ul>
+            </fieldset>
+        </form>
+
+        <footer id="fim-pagina">
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
