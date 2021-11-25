@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>Calculadora</h1>
+            <section class="corpo">
+                <h2></h2>
+                <p id="resultado"></p>
+                <table>
+                    <tr>
+                        <td><button onclick="adicionar('/')">/</button></td>
+                        <td><button onclick="adicionar('*')">*</button></td>
+                        <td><button onclick="adicionar('-')">-</button></td>
+                        <td><button onclick="adicionar('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="adicionar('7')">7</button></td>
+                        <td><button onclick="adicionar('8')">8</button></td>
+                        <td><button onclick="adicionar('9')">9</button></td>
+                        <td><button onclick="limpar()">C</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="adicionar('4')">4</button></td>
+                        <td><button onclick="adicionar('5')">5</button></td>
+                        <td><button onclick="adicionar('6')">6</button></td>
+                        <td><button onclick="apagar()"><</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="adicionar('1')">1</button></td>
+                        <td><button onclick="adicionar('2')">2</button></td>
+                        <td><button onclick="adicionar('3')">3</button></td>
+                        <td><button onclick="adicionar('.')">.</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="adicionar('0')">0</button></td>
+                        <td colspan="3"><button class="esticado" onclick="calculo()">ENTER</button></td>
+                    </tr>
+                </table>
+            </section>
+
+            <footer id="fim-pagina">
+            </footer>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+</html>
