@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)100%), url('imgs/capa-do-site.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Menu*/
+fieldset {
+    margin: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background: rgba(120, 97, 202, 0.568);
+}
+
+.excecao {
+    width: max-content;
+    margin: auto;
+    background: #ffce2fa4;
+}
+
+/*Chef*/
+
+.chef {
+    background: #ffce2fa4;
+    width: 360px;
+    height: 300px;
+}
+
+/*Footer*/
+
+footer {
+    color: white;
+}

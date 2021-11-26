@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Hamburgueria do Jaun</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Bem vindo a Hamburgueria do Jaum <br />
+                Bora bater aquele hamburgão?
+            </h1>
+        </header>
+
+        <form>
+            <fieldset class="excecao">
+                <h2>Solicitação a Cozinha</h2>
+                <fieldset>
+                    <legend>Opções de Pão</legend>
+                        <input type="radio" name="pao" id="pao_1" />
+                        <label>Pão fracês R$ 3,00</label>
+                        <input type="radio" name="pao" id="pao_2" />
+                        <label>Pão Australiano R$ 8,00</label>
+                        <input type="radio" name="pao" id="pao_3" />
+                        <label>Pão de Brioche R$ 6,00</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Opções de Hambúrguer</legend>
+                        <input type="radio" name="hamburguer" id="hamburguer_1" />
+                        <label for="hamburguer_1">Hambúrguer de Picanha R$13,00</label>
+                        <input type="radio" name="hamburguer" id="hamburguer_2" />
+                        <label for="hamburguer_2">Hambúrguer de Costela R$ 10,00</label>
+                        <input type="radio" name="hamburguer" id="hamburguer_3" />
+                        <label for="hamburguer_3">Hambúrguer Vegano R$ 12,00</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Opções de Salada</legend>
+                        <input type="radio" name="salada" id="salada_1" />
+                        <label for="salada_1">Alface R$1,50</label>
+                        <input type="radio" name="salada" id="salada_2" />
+                        <label for="salada_2">Tomate R$1,50</label>
+                        <input type="radio" name="salada" id="salada_3" />
+                        <label for="salada_3">Sem Salada</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Opções de Queijo</legend>
+                        <input type="radio" name="queijo" id="queijo_1" />
+                        <label for="queijo_1">Mussarela R$3,00</label>
+                        <input type="radio" name="queijo" id="queijo_2" />
+                        <label for="queijo_2">Prato R$3,00</label>
+                        <input type="radio" name="queijo" id="queijo_3" />
+                        <label for="queijo_3">Cheddar R$5,00</label>
+                </fieldset>
+                <fieldset>
+                    <button type="button" onclick="submitForm()">Confirmar Pedido</button><button type="reset">Refazer pedido</button>
+                </fieldset>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset class="chef" id="comandachef">
+            </fieldset>
+        </form>
+
+        <footer id="fim-pagina">
+        </footer>
+    </body>
+
+    <script src="script.js"></script>
+</html>
