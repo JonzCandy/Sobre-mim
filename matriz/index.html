@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Jogo da Velha</title>
+    </head>
+
+    <body>
+        <main>
+            <table>
+                <thead>
+                    <th colspan="3">Jogo da Velha</th>
+                </thead>
+                <tbody onclick="contar()">
+                    <tr>
+                        <td class="quadrado" id="primeiro" onclick="marcar()"></td>
+                        <td class="quadrado" id="segundo" onclick="marcar1()"></td>
+                        <td class="quadrado" id="terceiro" onclick="marcar2()"></td>
+                    </tr>
+                    <tr>
+                        <td class="quadrado" id="quarto" onclick="marcar3()"></td>
+                        <td class="quadrado" id="quinto" onclick="marcar4()"></td>
+                        <td class="quadrado" id="sexto" onclick="marcar5()"></td>
+                    </tr>
+                    <tr>
+                        <td class="quadrado" id="setimo" onclick="marcar6()"></td>
+                        <td class="quadrado" id="oitavo" onclick="marcar7()"></td>
+                        <td class="quadrado" id="nono" onclick="marcar8()"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+</html>
