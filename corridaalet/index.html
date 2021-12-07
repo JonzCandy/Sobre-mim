@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Grand Pre Mundial</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>New Grand Pre</h1>
+
+            <section>
+                <h3>Modo de Corrida</h3>
+                <button type="button" id="voltas1" onclick="run1()" value="10">Corrida Rápida</button>
+                <button type="button" id="voltas2" onclick="run2()" value="70">Grande Prêmio</button>
+                <button type="button" id="voltas3" onclick="run3()" value="160">Enduro</button>
+                <input type="number" id="voltas" placeholder="Defina numero de voltas">
+                <button type="button" onclick="run4()">Run</button>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <h2>Resultados</h2>
+                <div class="linha">
+                    <div class="corredor" id="pedro"></div>
+                    <div class="corredor" id="juca"></div>
+                    <div class="corredor" id="edna"></div>
+                </div>
+            </section>
+            <section>
+                <h3>Vencedor</h3>
+                <div class="winner" id="vencedor"></div>
+            </section>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+</html>
