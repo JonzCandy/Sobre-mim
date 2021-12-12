@@ -70,10 +70,6 @@ function carrocorrerp(min,max) {
     max = Math.floor(carrovelmaxp());
     return Math.floor(Math.random()*(max - min)+min);
 }
-console.log(carrovelminp());
-console.log(carrovelmaxp());
-console.log(carroderrapp());
-console.log(carrocorrerp());
 
 function carrovelminj(min,max) {
     min = Math.ceil(carroj.velocidade_minima.min);
@@ -95,10 +91,6 @@ function carrocorrerj(min,max) {
     max = Math.floor(carrovelmaxj());
     return Math.floor(Math.random()*(max - min)+min);
 }
-console.log(carrovelminj());
-console.log(carrovelmaxj());
-console.log(carroderrapj());
-console.log(carrocorrerj());
 
 function carrovelmine(min,max) {
     min = Math.ceil(carroe.velocidade_minima.min);

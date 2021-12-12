@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(imgs/plano\ de\ fundo.jpg);
+    background-size: cover;
+    color: honeydew;
+}
+
+header {
+    background: url(imgs/header.jpg);
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.corredor {
+    width: 150px;
+    height: 125px;
+    margin: 5px;
+    border: 5px solid gray;
+}
