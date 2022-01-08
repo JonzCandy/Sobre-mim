@@ -5,10 +5,6 @@ body {
     color: honeydew;
 }
 
-header {
-    background: url(imgs/header.jpg);
-}
-
 .linha {
     display: flex;
     flex-direction: row;

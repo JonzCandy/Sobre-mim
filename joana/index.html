@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Juros da Loja</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Tabela de Juros</h1>
+        </header>
+
+        <form>
+            <label for="nick">Nome:</label>
+            <input type="text" name="name" id="nick" />
+            <br />
+            <label for="vali">Data de Vencimento:</label>
+            <input type="date" name="date" id="vali" />
+            <br />
+            <label for="buy">Valor da Compra:</label>
+            <input type="number" name="compra" id="buy" />
+            <br />
+            <input type="button" onclick="enviar()" value="Enviar dados"/>
+            <input type="button" onclick="calcular()" value="Calcular Juros">
+            <input type="button" onclick="limpar()" value="Esvaziar tabela">
+        </form>
+
+        <main>
+            <table>
+                <tr>
+                    <th>00</th>
+                    <th>Cliente</th>
+                    <th>Vencimento</th>
+                    <th>Valor</th>
+                </tr>
+                <tbody id="tabela"></tbody>
+            </table>
+        </main>
+    </body>
+
+    <script src="script.js"></script>
+</html>

@@ -143,15 +143,15 @@ function run1() {
         voltas++;
     }
 
-    document.getElementById("pedro").innerHTML += `
+    document.getElementById("pedro").innerHTML = `
     <h3>Pedro</h3>
     <p>voltas vencidas</p>${winp}
     `;
-    document.getElementById("juca").innerHTML += `
+    document.getElementById("juca").innerHTML = `
     <h3>Juca</h3>
     <p>voltas vencidas</p>${winj}
     `;
-    document.getElementById("edna").innerHTML += `
+    document.getElementById("edna").innerHTML = `
     <h3>Edna</h3>
     <p>voltas vencidas</p>${wine}
     `;
@@ -183,15 +183,15 @@ function run2() {
         voltas++;
     }
 
-    document.getElementById("pedro").innerHTML += `
+    document.getElementById("pedro").innerHTML = `
     <h3>Pedro</h3>
     <p>voltas vencidas</p>${winp}
     `;
-    document.getElementById("juca").innerHTML += `
+    document.getElementById("juca").innerHTML = `
     <h3>Juca</h3>
     <p>voltas vencidas</p>${winj}
     `;
-    document.getElementById("edna").innerHTML += `
+    document.getElementById("edna").innerHTML = `
     <h3>Edna</h3>
     <p>voltas vencidas</p>${wine}
     `;
@@ -223,15 +223,15 @@ function run3() {
         voltas++;
     }
 
-    document.getElementById("pedro").innerHTML += `
+    document.getElementById("pedro").innerHTML = `
     <h3>Pedro</h3>
     <p>voltas vencidas</p>${winp}
     `;
-    document.getElementById("juca").innerHTML += `
+    document.getElementById("juca").innerHTML = `
     <h3>Juca</h3>
     <p>voltas vencidas</p>${winj}
     `;
-    document.getElementById("edna").innerHTML += `
+    document.getElementById("edna").innerHTML = `
     <h3>Edna</h3>
     <p>voltas vencidas</p>${wine}
     `;
@@ -263,15 +263,15 @@ function run4() {
         voltas++;
     }
 
-    document.getElementById("pedro").innerHTML += `
+    document.getElementById("pedro").innerHTML = `
     <h3>Pedro</h3>
     <p>voltas vencidas</p>${winp}
     `;
-    document.getElementById("juca").innerHTML += `
+    document.getElementById("juca").innerHTML = `
     <h3>Juca</h3>
     <p>voltas vencidas</p>${winj}
     `;
-    document.getElementById("edna").innerHTML += `
+    document.getElementById("edna").innerHTML = `
     <h3>Edna</h3>
     <p>voltas vencidas</p>${wine}
     `;
@@ -286,3 +286,32 @@ function run4() {
         document.getElementById("vencedor").innerHTML = "<h2>ih deu empate</h2>";
     }
 }
+
+/*if (winp=winj) {
+    veltotalp = (carrocorrerp()-((carrocorrerp()*carroderrapp())/10000));
+    veltotalj = (carrocorrerj()-((carrocorrerj()*carroderrapj())/10000));
+
+    if(veltotalp>veltotalj){
+        winp++;
+    }else if(veltotalj>veltotalp){
+        winj++;
+    }
+}else if(winp=wine){
+    veltotalp = (carrocorrerp()-((carrocorrerp()*carroderrapp())/10000));
+    veltotale = (carrocorrere()-((carrocorrere()*carroderrape())/10000));
+
+    if(veltotalp>veltotale){
+        winp++;
+    }else if(veltotale>veltotalp){
+        wine++;
+    }
+}else if(winj=wine){
+    veltotalj = (carrocorrerj()-((carrocorrerj()*carroderrapj())/10000));
+    veltotale = (carrocorrere()-((carrocorrere()*carroderrape())/10000));
+
+    if(veltotalj>veltotale){
+        winj++;
+    }else if(veltotale>veltotalj){
+        wine++;
+    }
+}*/
