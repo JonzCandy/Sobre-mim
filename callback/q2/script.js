@@ -1,6 +1,17 @@
 const min = 1;
 const max = 60;
 
+/*function rool(result) {
+    document.getElementById('achimvent').innerHTML = result;
+};
+
+function processando(callback) {
+    let result = Math.floor(Math.random()*(max - min)+min);
+    callback(result);
+};
+
+setInterval(processando(rool), 1000);*/
+
 function rool(result) {
     if ((result[0]=result[1])||(result[0]=result[2])||(result[0]=result[3])||(result[0]=result[4])||(result[0]=result[5])) {
         result[0] = Math.floor(Math.random()*(max - min)+min);
