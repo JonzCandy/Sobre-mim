@@ -15,7 +15,7 @@ function apagar() {
 
 function calculo() {
     var calcular = document.getElementById('resultado').innerHTML;
-    if(calcular){
+    if(calcular != ""){
         document.getElementById('resultado').innerHTML = eval(calcular);
     }
     else {
